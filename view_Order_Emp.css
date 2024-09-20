@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.waiting {
+    font-weight: bold;
+}
+
+
+/* CSS Styles for Different Order Statuses */
+.waiting{
+    font-weight: bold;
+    background-color: #ffebcc; /* Light red background for waiting status */
+}
+
+.shipped {
+    background-color:#d9ead3 /* Light green background for shipped status */
+}

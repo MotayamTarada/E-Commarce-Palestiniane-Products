@@ -1,0 +1,60 @@
+/* View_Item.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#img_div {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#img_div img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+#img_div p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#img_div p:nth-child(even) {
+    background-color: #f2f2f2;
+    padding: 8px;
+}
+
+#img_div p:nth-child(odd) {
+    padding: 8px;
+}
+
+/* Additional styling for body content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    text-align: center; /* Center the link */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.logo a {
+    background-color: #d5a70f; /* Set background color */
+    color: #fff; /* Set text color */
+}
+.logo a:hover {
+    background-color: #766106; /* Change background color on hover */
+}

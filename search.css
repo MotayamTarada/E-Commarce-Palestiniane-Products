@@ -1,0 +1,173 @@
+ /* Reset some default styles */
+ body,
+ h1,
+ h2,
+ p,
+ table {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+ }
+
+ /* Style for the search form */
+ form {
+     margin: 20px auto;
+     max-width: 600px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ label {
+     display: block;
+     margin-bottom: 5px;
+ }
+
+ input {
+     flex: 1;
+     margin-right: 10px;
+     padding: 10px;
+     border: 1px solid #ddd;
+     box-sizing: border-box;
+ }
+
+ /* Style for the table container */
+ .table-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+ }
+
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 20px;
+ }
+
+ th,
+ td {
+     padding: 12px;
+     text-align: left;
+     border: 1px solid #ddd;
+ }
+
+ th {
+     background-color: #f2f2f2;
+     cursor: pointer;
+ }
+
+ /* Style for the shortlist button */
+ .shortlist-button {
+     background-color: #4CAF50;
+     color: white;
+     border: none;
+     padding: 8px 16px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 14px;
+     margin: 4px 2px;
+     cursor: pointer;
+ }
+
+ /* Style for the category classes */
+ .category-electronics {
+     background-color: #e1f7d5;
+     /* Light green */
+ }
+
+ .category-clothing {
+     background-color: #fdd7e4;
+     /* Light pink */
+ }
+
+ /* Style for the form and contact section */
+ .contact-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    color: black;
+    /* Center text in the contact section */
+}
+
+.contact-section p {
+    margin: 0 auto; /* Centers the text horizontally */
+    width: 80%; /* Adjust the width as needed */
+}
+
+
+ .contact-form {
+     max-width: 600px;
+     margin: 0 auto;
+ }
+
+ .contact-form label {
+     display: block;
+     margin-bottom: 10px;
+ }
+
+ .contact-form input,
+ .contact-form textarea {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 15px;
+     border: 1px solid #ddd;
+     padding-left: 5px;
+
+ }
+
+ .contact-form button {
+     background-color: #ba980e;
+     color: white;
+     border: none;
+     padding: 12px 20px;
+     font-size: 16px;
+     cursor: pointer;
+ }
+
+ /* CSS for update quantity form */
+.update-quantity-form {
+    margin-top: 20px;
+}
+
+.update-quantity-form form {
+    display: inline-block;
+}
+
+.update-quantity-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.update-quantity-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.new-arrival {
+    background-color: #e6f7ff; /* Light blue background for new arrivals */
+}
+
+.on-sale {
+    background-color: #ffcccc; /* Light red background for products on sale */
+}
+
+.featured {
+    background-color: #ffffcc; /* Light yellow background for featured products */
+}
+
+.high-demand {
+    background-color: #ccffcc; /* Light green background for high-demand products */
+}
+

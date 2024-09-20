@@ -1,0 +1,12 @@
+#error_msg {
+    width: 50%;
+    margin: 5px auto;
+    height: 30px;
+    border: 1px solid #FF0000;
+    background-color: #FFCACA; /* Changed to a lighter red for better readability */
+    color: #FF0000;
+    text-align: center;
+    line-height: 30px; /* Vertical alignment of text within the box */
+    font-weight: bold; /* Making the text bold for emphasis */
+}
+

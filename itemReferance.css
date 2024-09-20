@@ -1,0 +1,46 @@
+/* itemReferance.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Container for product details */
+.conta {
+    max-width: 800px;
+    margin: 0 auto; /* Center align container */
+    padding: 0 20px;
+}
+
+/* Style product details */
+.product-details-container {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.product-details {
+    width: 100%; /* Take full width */
+    text-align: center; /* Center align text */
+}
+
+.product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    margin-bottom: 5px;
+}
+
+.product-image {
+    max-width: 100%; /* Ensure image fits container */
+    display: block; /* Prevent image from extending beyond container */
+    margin: 0 auto; /* Center align image */
+    border-radius: 5px;
+}

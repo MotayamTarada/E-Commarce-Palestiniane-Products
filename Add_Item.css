@@ -1,0 +1,83 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, select, textarea, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(14, 3, 3); 
+}
+
+input,
+select,
+textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+select {
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #9f7f16;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #d4a304;
+}
+
+/* Optional: Add more styling as needed for a better visual appeal */
+
+
+    .new-arrival {
+        background-color: #e6f7ff; /* Light blue background for new arrivals */
+    }
+
+    .on-sale {
+        background-color: #ffcccc; /* Light red background for products on sale */
+    }
+
+    .featured {
+        background-color: #ffffcc; /* Light yellow background for featured products */
+    }
+
+    .high-demand {
+        background-color: #ccffcc; /* Light green background for high-demand products */
+    }
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Add_Item.css">
+    <title>Add_Item</title>
+</head>
+
+<body>
+    <main class="container">
+        <form action="Add_item.php" method="post" enctype="multipart/form-data">
+            <label for="name">Name product</label>
+            <input type="text" name="name" required>
+            <br>
+            <label for="des">Brief Description</label>
+            <input type="text" name="des" required>
+            <br>
+            <label for="price">Price</label>
+            <input type="text" name="price" required>
+            <br>
+            <label for="size">Size</label>
+            <input type="text" name="size" required>
+            <br>
+            <label for="remark">Remark</label>
+            <textarea name="remark" required></textarea>
+            <br>
+            <label for="category">Category</label>
+            <select name="category" required>
+                <option value="new arrival">new arrival</option>
+                <option value="on sale">on sale</option>
+                <option value="featured">featured</option>
+                <option value="high demand">high demand</option>
+                <option value="normal">normal</option>
+            </select>
+            <br>
+            <label for="quantity">Quantity</label>
+            <input type="text" name="quantity" required>
+            <label for="picture">Uplode picture</label>
+            <input type="file" name="image" accept="image/*" required>
+            <br>
+            <br>
+            <input type="submit" name="add" value="Add">
+        </form>
+    </main>
+</body>
+
+</html>

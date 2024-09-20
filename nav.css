@@ -1,0 +1,53 @@
+/* Basic CSS Reset */
+main {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* Navigation styles */
+nav {
+    background-color:#333;
+    width: 240px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+label {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    align-self: flex-start; /* Align the label to the start (left) */
+}
+
+input[type="search"] {
+    border: #333 ;
+    border-radius: 3%;
+
+    padding: 8px;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-size: 16px;
+    align-self: flex-start; /* Align the input to the start (left) */
+}
